@@ -12,10 +12,10 @@ Prerequisites:
 4.	Sci-kitlearn(sklearn)
 5.	Natural Language Processing Toolkit (nltk)
 6.	Natural Language Processing Toolkit Data(words,punkt)
-    To download the above package the following commands need to be executed from python shell
-    Import nltk
-    nltk.download(‘punkt’)
-    nltk.download(‘words’)
+    	To download the above package the following commands need to be executed from python shell
+	Import nltk
+    	nltk.download(‘punkt’)
+    	nltk.download(‘words’)
 7.	Download Global Vector prebuilt model from http://nlp.stanford.edu/data/glove.twitter.27B.zip
 
 
