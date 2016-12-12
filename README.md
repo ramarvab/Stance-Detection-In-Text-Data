@@ -15,8 +15,8 @@ Prerequisites:
     	
 			To download the above package the following commands need to be executed from python shell
 			Import nltk
-    	nltk.download(‘punkt’)
-    	nltk.download(‘words’)
+    			nltk.download(‘punkt’)
+    			nltk.download(‘words’)
 			
 7.	Download Global Vector prebuilt model from http://nlp.stanford.edu/data/glove.twitter.27B.zip
 
