@@ -20,19 +20,20 @@ Prerequisites:
 
 
 Running Instructions
+
 1.	Unzip the folder downloaded from above url and place all the files in code folder provided with the submission.
 2.	To run the program type the below command after navigating to code foler 
-python biasDetectionMain.py --trainingfile training.txt --testfile test-gold.txt --choice g --glovefile glove.twitter.27B.25d.txt --evaluation k --classifier svc
+	python biasDetectionMain.py --trainingfile training.txt --testfile test-gold.txt --choice g --glovefile 		glove.twitter.27B.25d.txt --evaluation k --classifier svc
 
 	parameters need to be supplied :
-a)	–trainingfile : path to training.txt file in code folder
-b)	–testfile :path to test-gold.txt file code folder
-c)	–glovefile: path to global vector file.  We can give file with 25 dimensions or 50 dimensions or 100 dimensions or 200 dimensions 
-eg for 50 dimensions
---glovefile glove.twitter.27B.25d.txt
+		a)	–trainingfile : path to training.txt file in code folder
+		b)	–testfile :path to test-gold.txt file code folder
+		c)	–glovefile: path to global vector file.  We can give file with 25 dimensions or 50 dimensions or 100 			      dimensions or 200 dimensions 
+			eg for 50 dimensions
+			--glovefile glove.twitter.27B.25d.txt
 
-d)	–choice :
-to run the model with glove file enter ‘g’ or to  run the model with tf idf enter t
+		d)	–choice :
+			to run the model with glove file enter ‘g’ or to  run the model with tf idf enter t
 
-e)	–evaluation : enter ‘k’ for k fold cross validation or ‘a’ for accuracy 
-f)	–classifier : enter svc for support vector machines ,gbc for gradient boosting classifier, rfc for random forest classifier
+		e)	–evaluation : enter ‘k’ for k fold cross validation or ‘a’ for accuracy 
+		f)	–classifier : enter svc for support vector machines ,gbc for gradient boosting classifier, rfc for 			   random forest classifier
